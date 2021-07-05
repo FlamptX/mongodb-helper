@@ -1,4 +1,4 @@
-## mongodb-helpers
+## mongodb-helper
 ### Methods that simplify MongoDB collection reading and writing.
 Method | Description
 --- | --- |
@@ -9,7 +9,7 @@ delete_document | Deletes a document with the given id
 
 #### Example:
 ```python
-from mongodb_helpers import Helper
+from mongodb_helper import Helper
 from pymongo import MongoClient
 
 URI = "CLUSTER URI"
